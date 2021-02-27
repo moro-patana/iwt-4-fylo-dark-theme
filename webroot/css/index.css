@@ -15,7 +15,8 @@ li {
   list-style: none; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #ffff; }
 
 a, button {
   cursor: pointer; }
