@@ -236,3 +236,8 @@ a, button {
   flex-direction: row;
   justify-content: flex-end;
   gap: 20px; }
+
+@media (min-width: 1140px) {
+  .contacts {
+    max-width: 1140px;
+    margin: 0 auto; } }
