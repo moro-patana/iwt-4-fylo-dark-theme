@@ -187,3 +187,6 @@ a, button {
 .access__form__button {
   color: white;
   background-color: deepskyblue; }
+
+.contacts__icon {
+  width: 50px; }
