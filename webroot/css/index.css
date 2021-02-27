@@ -159,12 +159,31 @@ a, button {
   width: 100px;
   border-radius: 50%; }
 
+.access {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
 .access__container {
   padding: 1rem;
   text-align: center; }
+
+.access__title {
+  padding-bottom: 20px;
+  font-size: 28px; }
 
 .access__form {
   display: flex;
   flex-direction: column;
   gap: 20px;
   padding-top: 30px; }
+
+.access__form__input,
+.access__form__button {
+  padding: 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px; }
+
+.access__form__button {
+  color: white;
+  background-color: deepskyblue; }
