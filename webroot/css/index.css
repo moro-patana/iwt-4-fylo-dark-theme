@@ -107,4 +107,17 @@ a, button {
   padding-top: 30px; }
   .works__link__container a {
     color: cadetblue;
-    font-size: 18px; }
+    font-size: 18px;
+    line-height: 40px; }
+
+.works__link {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  width: 225px;
+  border-bottom: 2px solid cadetblue;
+  padding-bottom: 10px; }
+
+.works__link__icon {
+  width: 40px; }
