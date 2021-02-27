@@ -1,0 +1,20 @@
+.header {
+    padding: 1rem;
+}
+.header__content,
+.header__menu__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__content {
+    gap: 20px;
+}
+.header__menu__list {
+    padding-left: 0;
+}
+.header__menu__list__item {
+    padding: 10px;
+    font-size: 14px;
+}
