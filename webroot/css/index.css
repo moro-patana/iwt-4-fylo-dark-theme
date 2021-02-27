@@ -65,8 +65,26 @@ a, button {
 .features__content {
   padding: 1rem; }
 
+.features__list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
 .features__list__item {
   text-align: center; }
+
+.features__list__item__title {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 22px;
+  font-weight: bold; }
+
+.features__list__item__description {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500; }
 
 .features__list__icon {
   width: 80px; }
