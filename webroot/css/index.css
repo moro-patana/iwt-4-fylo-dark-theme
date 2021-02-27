@@ -88,3 +88,23 @@ a, button {
 
 .features__list__icon {
   width: 80px; }
+
+.works__content {
+  padding: 1rem; }
+
+.works__title {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700; }
+
+.works__information {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500; }
+
+.works__link {
+  padding-top: 30px; }
+  .works__link a {
+    color: cadetblue;
+    font-size: 18px; }
