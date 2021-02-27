@@ -36,3 +36,7 @@ a {
 .header__menu__list__item {
   padding: 10px;
   font-size: 14px; }
+
+.masthead__header {
+  padding: 1rem;
+  text-align: center; }
