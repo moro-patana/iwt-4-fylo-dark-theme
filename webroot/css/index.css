@@ -103,8 +103,8 @@ a, button {
   line-height: 24px;
   font-weight: 500; }
 
-.works__link {
+.works__link__container {
   padding-top: 30px; }
-  .works__link a {
+  .works__link__container a {
     color: cadetblue;
     font-size: 18px; }
