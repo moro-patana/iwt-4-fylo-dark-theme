@@ -188,5 +188,8 @@ a, button {
   color: white;
   background-color: deepskyblue; }
 
+.contacts {
+  padding: 1rem; }
+
 .contacts__icon {
-  width: 50px; }
+  width: 30px; }
