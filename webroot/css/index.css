@@ -61,3 +61,12 @@ a, button {
 
 .masthead__header__description {
   padding-bottom: 30px; }
+
+.features__content {
+  padding: 1rem; }
+
+.features__list__item {
+  text-align: center; }
+
+.features__list__icon {
+  width: 80px; }
