@@ -25,3 +25,34 @@
 .features__list__icon {
     width: 80px;
 }
+@media (min-width: 768px) {
+    .features__container {
+        padding: 20px;
+    }
+    .features__list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 50px;
+        align-items: baseline;
+    }
+}
+@media (min-width: 1140px) {
+    .features__container {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    .features__list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 143px;
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 100px;
+        align-items: baseline;
+    }
+    .features__list__item__title {
+        font-size: 28px;
+    }
+    .features__list__item__description {
+        font-size: 18px;
+    }
+}
