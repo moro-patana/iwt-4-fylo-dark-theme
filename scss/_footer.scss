@@ -49,8 +49,14 @@
 }
 
 @media (min-width: 1140px) {
-    .contacts {
+    .contacts__container {
         max-width: 1140px;
         margin: 0 auto;
+    }
+    .contacts__list {
+        display: grid;
+        grid-template-columns: 362px 200px 100px 100px 170px;
+        column-gap: 50px;
+        align-items: baseline;
     }
 }
