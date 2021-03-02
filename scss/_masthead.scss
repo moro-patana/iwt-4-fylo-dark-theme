@@ -20,3 +20,22 @@
 .masthead__header__description {
     padding-bottom: 30px;
 }
+@media (min-width: 1140px) {
+    .masthead__header__container {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    .masthead__header__content {
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .masthead__header__title {
+        font-size: 40px;
+    }
+    .masthead__header__description {
+        font-size: 24px;
+    }
+    
+}
