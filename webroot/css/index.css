@@ -233,6 +233,11 @@ a, button {
   padding: 1rem;
   text-align: center; }
 
+.access__content {
+  background-color: #202a3c;
+  padding: 20px;
+  border-radius: 10px; }
+
 .access__title {
   padding-bottom: 20px;
   font-size: 28px; }
@@ -253,6 +258,18 @@ a, button {
 .access__form__button {
   color: white;
   background-color: deepskyblue; }
+
+@media (min-width: 1140px) {
+  .access__container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: 300px;
+    padding-right: 300px; }
+  .access__content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 60px; } }
 
 .contacts {
   padding: 1rem; }
