@@ -18,3 +18,12 @@
     padding: 10px;
     font-size: 14px;
 }
+@media (min-width: 1140px) {
+    .header__container {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    .header__content {
+        padding-top: 20px;
+    }
+}
