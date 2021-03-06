@@ -23,3 +23,8 @@ a {
 a, button {
     cursor: pointer;
 }
+@media (min-width: 1140px) {
+    a {
+        font-size: 18px;
+    }
+}
